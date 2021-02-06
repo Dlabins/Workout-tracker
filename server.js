@@ -14,7 +14,7 @@ app.use(express.static('./public'))
     res.sendFile('./public/index.html');
     })*/
 var MONGODB_URI = "mongodb://localhost:/workout";
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:/workouts", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:/workout", { useNewUrlParser: true });
 
 require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
