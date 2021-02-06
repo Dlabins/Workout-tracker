@@ -26,6 +26,6 @@ View the total duration of each workout from the past seven workouts on the stat
 
 
 
-![snapshot](scrennshot/fitness.png)
+![snapshot](screenshot/fitness.png)
 The github repo can be found at: https://github.com/Dlabins/Workout-tracker
 This application can be accessed at the following link: https://workout-tracker-dlabins.herokuapp.com/
